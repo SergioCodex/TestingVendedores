@@ -21,7 +21,7 @@ import org.junit.runners.Parameterized.Parameters;
  * @author root-admin
  */
 @RunWith(Parameterized.class)
-public class TestsParametrizados {
+public class TestsParaEliminar {
 
     Vendedores vend = new Vendedores();
 
@@ -69,7 +69,7 @@ public class TestsParametrizados {
     private int elimina;
     private boolean expected;
 
-    public TestsParametrizados(int elimina, boolean expected) {
+    public TestsParaEliminar(int elimina, boolean expected) {
 
         this.expected = expected;
         this.elimina = elimina;
